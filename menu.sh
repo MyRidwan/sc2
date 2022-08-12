@@ -37,7 +37,7 @@ echo "██╔═══╝ ██║██╔═██╗ ██╔══██
 echo "██║     ██║██║  ██╗██║  ██║╚██████╗██║  ██║ ╚█████╔╝" | lolcat                 
 echo "╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝" | lolcat
 echo "════════════════════════════════════════════════════════════" | lolcat
-	echo -e "\E[44;1;39m          ⇱ AUTOSCRIPT BY RIDWAN ⇲          \E[0m"
+	echo -e "          ⇱ AUTOSCRIPT BY RIDWAN ⇲          "
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
 	freq=$( awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo )
