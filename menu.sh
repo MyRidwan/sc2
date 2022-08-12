@@ -43,7 +43,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e ""
 date | lolcat
 echo -e "Menu Utama                                Informasi VPS" | lolcat -a -d 10
-
+echo -e ""
 echo -e " [01] Control Panel SSH & OVPN            [©] Cpu Model: $cname"
 echo -e " [02] Control Panel Wireguard             [©] Number Of Cores: $cores"
 echo -e " [03] Control Panel L2TP & PPTP           [©] Cpu Freq: $freq MHz"
@@ -59,7 +59,7 @@ echo -e "\E[44;1;39m          ⇱ MENU TAMBAHAN ⇲          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\E[0m${NC}"
 echo -e ""
 echo -e "Menu Tambahan" | lolcat -a -d 10
-
+echo -e ""
 echo -e " [09]   Add Subdomain Host For VPS     [19] Speedtest Vps"
 echo -e " [10]  Renew Certificate V2RAY         [20] Informasi System"
 echo -e " [11]  Change Port All Account         [21] Info Script"
