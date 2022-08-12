@@ -29,14 +29,12 @@ CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ipv4.icanhazip.com )
 clear
-echo "════════════════════════════════════════════════════════════" | lolcat     
 echo "██████╗ ██╗██╗  ██╗ █████╗   ██████╗██╗  ██╗██╗   ██╗" | lolcat           
 echo "██╔══██╗██║██║ ██╔╝██╔══██╗██╔════╝ ██║  ██║██║   ██║" | lolcat                
 echo "██████╔╝██║█████╔╝ ███████║██║      ███████║██║   ██║" | lolcat                
 echo "██╔═══╝ ██║██╔═██╗ ██╔══██║██║      ██╔══██║██║   ██║" | lolcat           
 echo "██║     ██║██║  ██╗██║  ██║╚██████╗██║  ██║ ╚█████╔╝" | lolcat                 
 echo "╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝" | lolcat
-echo "════════════════════════════════════════════════════════════" | lolcat
 	echo -e "          ⇱ AUTOSCRIPT BY RIDWAN ⇲          "
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
